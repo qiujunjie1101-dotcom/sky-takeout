@@ -28,4 +28,11 @@ public interface EmployeeMapper {
 
     //用动态sql 分页
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+
+    /**
+     * 根据主键动态修改属性
+      * @param employee
+     */
+    void update(Employee employee);
 }
