@@ -7,6 +7,9 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 封装前端传来的参数
+ */
 @Data
 public class DishDTO implements Serializable {
 
